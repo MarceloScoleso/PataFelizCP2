@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Conheca os servicos do PataFeliz: banho, tosa, veterinario 24h, hotel, adestramento e nossos planos exclusivos." />
+    <meta name="theme-color" content="#FF7A59" />
+    <title>Portifólio · PataFeliz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../src/css/estilo.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%BE%3C/text%3E%3C/svg%3E" />
+  </head>
+
+  <body>
+
+    <header class="header" role="banner">
+      <div class="container header-inner">
+        <a href="../index.html" class="logo" aria-label="PataFeliz - Pagina inicial">
+          <img src="../src/assets/img/PataFeliz.png" alt="PataFeliz" class="logo-img" />
+        </a>
+
+        <nav class="nav" aria-label="Navegacao principal">
+          <ul class="nav-list" id="nav-list">
+            <li><a href="../index.html" class="nav-link">Home</a></li>
+            <li><a href="portifolio.html" class="nav-link active">Portifólio</a></li>
+            <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+            <li><a href="contato.html" class="btn btn-primary">Agendar agora</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <a href="contato.html" class="btn btn-primary">Agendar agora</a>
+          </div>
+
+          <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <line x1="3" y1="7" x2="21" y2="7" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="17" x2="21" y2="17" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="page-header">
+        <div class="container">
+          <nav class="breadcrumb" aria-label="Migalhas">
+            <a href="../index.html">Home</a>
+            <span>›</span>
+            <span>Portifólio</span>
+          </nav>
+          <h1>Nosso Portifólio</h1>
+          <p>Todos os serviços, preços transparentes e promoções do mês para mimar seu melhor amigo.</p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="servicos-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag"> Catálogo completo</span>
+            <h2 id="servicos-title" class="section-title">Serviços do PataFeliz</h2>
+            <p class="section-subtitle">Tudo o que seu pet precisa em um só lugar, com profissionais certificados.</p>
+          </header>
+
+          <div class="services-grid reveal">
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <span class="service-tag">Mais pedido</span>
+                <img src="../src/assets/img/servico-banho.jpg" alt="Cachorro recebendo banho" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Banho Premium</h3>
+                <p>Shampoo hipoalergênico, hidratação, secagem suave, perfume e laço personalizado.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 79 <small>/ pequeno</small></span>
+                  <a href="contato.html" class="service-link">Agendar →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <img src="../src/assets/img/servico-tosa.jpg" alt="Cachorro recebendo tosa" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Tosa Higiênica &amp; Modeladora</h3>
+                <p>Tosa segura, modelada por raca ou desenho personalizado. Incluí corte de unhas.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 95 <small>/ pequeno</small></span>
+                  <a href="contato.html" class="service-link">Agendar →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <span class="service-tag">24 horas</span>
+                <img src="../src/assets/img/servico-vet.jpg" alt="Consulta veterinaria" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Veterinário Clínico</h3>
+                <p>Consultas, vacinas, exames de imagem e laboratório. Plantão 24h para emergências.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 120 <small>/ consulta</small></span>
+                  <a href="contato.html" class="service-link">Agendar →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <img src="../src/assets/img/servico-hotel.jpg" alt="Cachorros brincando" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Hotel para Pets</h3>
+                <p>Acomodações individuais climatizadas, área externa e relatório diário com fotos.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 89 <small>/ diária</small></span>
+                  <a href="contato.html" class="service-link">Agendar →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <img src="../src/assets/img/cachorro-feliz.jpg" alt="Cachorro feliz em adestramento" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Adestramento Positivo</h3>
+                <p>Treinos individuais com reforço positivo. Comandos básicos, socialização e comportamento.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 150 <small>/ aula</small></span>
+                  <a href="contato.html" class="service-link">Agendar →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <span class="service-tag">Novo</span>
+                <img src="../src/assets/img/filhote.jpg" alt="Filhote de cachorro" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Daycare Diurno</h3>
+                <p>Seu pet brinca, socializa e gasta energia enquanto você trabalha. Com PataCam ao vivo.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 65 <small>/ dia</small></span>
+                  <a href="contato.html" class="service-link">Agendar →</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;" aria-labelledby="tabela-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag"> Preços transparentes</span>
+            <h2 id="tabela-title" class="section-title">Tabela completa de preços</h2>
+            <p class="section-subtitle">Valores por porte do pet, sem letras miúdas.</p>
+          </header>
+
+          <div class="price-table-wrap reveal">
+            <table class="price-table">
+              <thead>
+                <tr>
+                  <th>Serviço</th>
+                  <th>Pequeno</th>
+                  <th>Médio</th>
+                  <th>Grande</th>
+                  <th>Gigante</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Banho Premium</td>
+                  <td>R$ 79</td>
+                  <td>R$ 99</td>
+                  <td>R$ 129</td>
+                  <td>R$ 169</td>
+                </tr>
+                <tr>
+                  <td>Tosa Higiênica</td>
+                  <td>R$ 65</td>
+                  <td>R$ 85</td>
+                  <td>R$ 110</td>
+                  <td>R$ 145</td>
+                </tr>
+                <tr>
+                  <td>Tosa Modeladora</td>
+                  <td>R$ 95</td>
+                  <td>R$ 125</td>
+                  <td>R$ 165</td>
+                  <td>R$ 210</td>
+                </tr>
+                <tr>
+                  <td>Banho + Tosa Completa</td>
+                  <td>R$ 149</td>
+                  <td>R$ 189</td>
+                  <td>R$ 245</td>
+                  <td>R$ 320</td>
+                </tr>
+                <tr>
+                  <td>Corte de unhas</td>
+                  <td>R$ 25</td>
+                  <td>R$ 30</td>
+                  <td>R$ 35</td>
+                  <td>R$ 45</td>
+                </tr>
+                <tr>
+                  <td>Hidratação profunda</td>
+                  <td>R$ 49</td>
+                  <td>R$ 65</td>
+                  <td>R$ 89</td>
+                  <td>R$ 115</td>
+                </tr>
+                <tr>
+                  <td>Hotel (diária)</td>
+                  <td>R$ 89</td>
+                  <td>R$ 109</td>
+                  <td>R$ 139</td>
+                  <td>R$ 179</td>
+                </tr>
+                <tr>
+                  <td>Daycare diurno</td>
+                  <td>R$ 65</td>
+                  <td>R$ 75</td>
+                  <td>R$ 89</td>
+                  <td>R$ 115</td>
+                </tr>
+                <tr class="flat-rate">
+                  <td>Consulta Veterinária</td>
+                  <td colspan="3"><small>presencial — qualquer porte</small></td>
+                  <td>R$ 120</td>
+                </tr>
+                <tr class="flat-rate">
+                  <td>TeleVet 24h (chat)</td>
+                  <td colspan="3"><small>chat online — gratuito p/ assinantes</small></td>
+                  <td>R$ 49</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing" aria-labelledby="planos-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag"> Clube PataFeliz</span>
+            <h2 id="planos-title" class="section-title">Planos de assinatura mensais</h2>
+            <p class="section-subtitle">Economize até 35% e ainda ganhe mimos exclusivos todo mês.</p>
+          </header>
+
+          <div class="pricing-grid reveal">
+
+            <article class="price-card">
+              <h3 class="price-name">Filhote</h3>
+              <p class="price-desc">Ideal para quem está começando a cuidar do pet.</p>
+              <div class="price-value">R$ 99 <small>/ mês</small></div>
+              <ul>
+                <li>2 banhos no mês</li>
+                <li>1 corte de unhas</li>
+                <li>Acesso ao Diário do Pet</li>
+                <li>5% de desconto em produtos</li>
+              </ul>
+              <a href="contato.html" class="btn btn-secondary">Assinar plano</a>
+            </article>
+
+            <article class="price-card featured">
+              <span class="price-badge">Mais popular</span>
+              <h3 class="price-name">Companheiro</h3>
+              <p class="price-desc">A combinação perfeita de cuidados e mimos.</p>
+              <div class="price-value">R$ 199 <small>/ mês</small></div>
+              <ul>
+                <li>4 banhos + 1 tosa</li>
+                <li>1 consulta veterinária</li>
+                <li>TeleVet 24h ilimitado</li>
+                <li>Box mensal personalizado</li>
+                <li>15% off em todos serviços</li>
+              </ul>
+              <a href="contato.html" class="btn btn-primary">Assinar plano</a>
+            </article>
+
+            <article class="price-card">
+              <h3 class="price-name">Premium</h3>
+              <p class="price-desc">O máximo em cuidado, conveniência e mimos.</p>
+              <div class="price-value">R$ 349 <small>/ mês</small></div>
+              <ul>
+                <li>Banhos ilimitados</li>
+                <li>2 tosas completas</li>
+                <li>2 consultas + vacinas</li>
+                <li>5 diárias de daycare</li>
+                <li>Box super premium</li>
+                <li>25% off em produtos</li>
+              </ul>
+              <a href="contato.html" class="btn btn-secondary">Assinar plano</a>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="promo-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag"> Promoções do mês</span>
+            <h2 id="promo-title" class="section-title">Ofertas que seu pet vai adorar</h2>
+            <p class="section-subtitle">Promoções por tempo limitado, pra mimar sem pesar no bolso.</p>
+          </header>
+
+          <div class="promo-grid reveal">
+
+            <article class="promo-card lg">
+              <div>
+                <span class="promo-discount">35%</span>
+                <h3>Combo Boas-Vindas</h3>
+                <p>Banho + tosa + corte de unhas na primeira visita. Válido para novos clientes em maio/2026.</p>
+              </div>
+              <a href="contato.html" class="btn btn-primary">Resgatar oferta</a>
+            </article>
+
+            <article class="promo-card">
+              <span class="promo-discount">15%</span>
+              <h3>Indique um amigo</h3>
+              <p>Você ganha 15% no próximo banho e seu amigo também.</p>
+            </article>
+
+            <article class="promo-card">
+              <span class="promo-discount">2x1</span>
+              <h3>TeleVet leva 2</h3>
+              <p>Compre uma consulta online e ganhe outra para usar em 90 dias.</p>
+            </article>
+
+            <article class="promo-card">
+              <span class="promo-discount">10%</span>
+              <h3>Hotel Pet</h3>
+              <p>10% off em estadias acima de 5 diárias. Reserva antecipada.</p>
+            </article>
+
+            <article class="promo-card">
+              <span class="promo-discount">FREE</span>
+              <h3>Check-up Aniversário</h3>
+              <p>Pet faz aniversário? Avaliação veterinária de cortesia.</p>
+            </article>
+
+            <article class="promo-card">
+              <span class="promo-discount">20%</span>
+              <h3>Combo Filhote</h3>
+              <p>Vacinas + consulta + primeiro banho com desconto especial.</p>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;">
+        <div class="container">
+          <div class="cta reveal">
+            <div>
+              <h2>Não encontrou o que procurava?</h2>
+              <p>Nossa equipe pode montar um pacote 100% personalizado pro seu pet. Fale com a gente.</p>
+            </div>
+            <div class="cta-actions">
+              <a href="contato.html" class="btn btn-primary btn-lg">Falar com um especialista</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-about">
+            <a href="../index.html" class="logo">
+              <img src="../src/assets/img/PataFeliz.png" alt="PataFeliz" class="logo-img" />
+            </a>
+            <p>O segundo lar do seu melhor amigo. Cuidado profissional, tecnologia e muito carinho desde 2010.</p>
+
+            <form id="newsletter-form" class="footer-newsletter" aria-label="Inscrever na newsletter">
+              <input type="email" placeholder="Seu melhor e-mail" aria-label="E-mail" required />
+              <button type="submit">Inscrever</button>
+            </form>
+          </div>
+
+          <div>
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="portifolio.html">Portifólio</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="portifolio.html">Banho &amp; Tosa</a></li>
+              <li><a href="portifolio.html">Veterinário 24h</a></li>
+              <li><a href="portifolio.html">Hotel &amp; Daycare</a></li>
+              <li><a href="portifolio.html">Clube PataFeliz</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Contato</h4>
+            <div class="footer-contact-item"><span class="icon" aria-hidden="true">☎</span><span>(11) 4002-8922</span></div>
+            <div class="footer-contact-item"><span class="icon" aria-hidden="true">✉</span><span>ola@patafeliz.com.br</span></div>
+            <div class="footer-contact-item"><span class="icon" aria-hidden="true">📍</span><span>Av. Paulista, 1500 - São Paulo/SP</span></div>
+
+            <div class="footer-socials">
+              <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="18" cy="6" r="1" fill="currentColor" />
+                </svg></a>
+              <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-3h2.5V9.5C10.5 7 12 5.7 14.2 5.7c1 0 2.1.2 2.1.2v2.3h-1.2c-1.2 0-1.6.7-1.6 1.5V12H17l-.4 3h-2.4v7A10 10 0 0 0 22 12z" />
+                </svg></a>
+              <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.6 6.3c-1.4-.4-2.5-1.4-3-2.8h-3.1v11.7c0 1.2-1 2.2-2.2 2.2s-2.2-1-2.2-2.2 1-2.2 2.2-2.2c.2 0 .5 0 .7.1V9.8c-.2 0-.5-.1-.7-.1-3 0-5.4 2.4-5.4 5.4S8.3 20.5 11.3 20.5s5.4-2.4 5.4-5.4V9.2c1.2.8 2.6 1.3 4.2 1.3V7.4c-.5 0-.9-.4-1.3-.5z" />
+                </svg></a>
+              <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20 4A10 10 0 0 0 4 17l-1 4 4-1a10 10 0 0 0 13-13zm-8 16a8 8 0 0 1-4-1l-3 1 1-3a8 8 0 1 1 6 3zm4-5c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1-.6.7-.7.8-.3.1-.5 0-1-.4-2-1.2c-.7-.6-1.2-1.4-1.4-1.6s0-.3.1-.4l.3-.4.2-.3v-.3l-.6-1.5c-.2-.4-.3-.3-.5-.3h-.4c-.1 0-.4 0-.6.3s-.7.7-.7 1.7.8 2 .9 2.1c.1.1 1.6 2.4 3.9 3.4 2 .8 2 .5 2.4.5.3 0 1.2-.5 1.4-1 .2-.5.2-.9.1-1l-.3-.2z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© <span id="current-year">2025</span> PataFeliz. Todos os direitos reservados.</span>
+          <div class="footer-bottom-links">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.me/5511400289220" class="float-wpp" aria-label="Falar no WhatsApp" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4A10 10 0 0 0 4 17l-1 4 4-1a10 10 0 0 0 13-13zm-8 16a8 8 0 0 1-4-1l-3 1 1-3a8 8 0 1 1 6 3zm4-5c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1-.6.7-.7.8-.3.1-.5 0-1-.4-2-1.2c-.7-.6-1.2-1.4-1.4-1.6s0-.3.1-.4l.3-.4.2-.3v-.3l-.6-1.5c-.2-.4-.3-.3-.5-.3h-.4c-.1 0-.4 0-.6.3s-.7.7-.7 1.7.8 2 .9 2.1c.1.1 1.6 2.4 3.9 3.4 2 .8 2 .5 2.4.5.3 0 1.2-.5 1.4-1 .2-.5.2-.9.1-1l-.3-.2z" />
+      </svg>
+    </a>
+
+    <script src="../src/js/script.js"></script>
+  </body>
+
+</html>
