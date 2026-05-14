@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PataFeliz - Petshop completo com banho, tosa, veterinario 24h, hotel, daycare e diferenciais exclusivos. O segundo lar do seu melhor amigo." />
+    <meta name="theme-color" content="#FF7A59" />
+    <meta name="author" content="Equipe PataFeliz - FIAP CP2" />
+    <title>PataFeliz - O segundo lar do seu melhor amigo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/estilo.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%BE%3C/text%3E%3C/svg%3E" />
+  </head>
+
+  <body>
+
+    <header class="header" role="banner">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="PataFeliz - Pagina inicial">
+          <img src="src/assets/img/PataFeliz.png" alt="PataFeliz" class="logo-img" />
+        </a>
+
+        <nav class="nav" aria-label="Navegacao principal">
+          <ul class="nav-list" id="nav-list">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="pages/portifolio.html" class="nav-link">Portifólio</a></li>
+            <li><a href="pages/sobre.html" class="nav-link">Sobre</a></li>
+            <li><a href="pages/contato.html" class="nav-link">Contato</a></li>
+            <li><a href="pages/contato.html" class="btn btn-primary">Agendar agora</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <a href="pages/contato.html" class="btn btn-primary">Agendar agora</a>
+          </div>
+
+          <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <line x1="3" y1="7" x2="21" y2="7" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="17" x2="21" y2="17" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <div class="hero-grid">
+
+            <div class="hero-content">
+              <p class="hero-kicker">
+                <strong>Atendimento 24h</strong> em emergências
+              </p>
+
+              <h1 id="hero-title" class="hero-title">
+                O <em>segundo lar</em> do seu melhor amigo
+              </h1>
+
+              <p class="hero-desc">
+                Banho, tosa, veterinário 24h e muito carinho. Cuidamos do seu pet com a mesma dedicação que você teria. Agende em 60 segundos.
+              </p>
+
+              <div class="hero-actions">
+                <a href="pages/contato.html" class="btn btn-primary btn-lg">
+                  Agendar banho
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                </a>
+                <a href="pages/portifolio.html" class="btn btn-secondary btn-lg">Conhecer serviços</a>
+              </div>
+
+              <div class="hero-stats">
+                <div class="hero-stat">
+                  <strong data-counter="12000" data-suffix="+">0</strong>
+                  <span>Pets atendidos</span>
+                </div>
+                <div class="hero-stat">
+                  <strong data-counter="98" data-suffix="%">0</strong>
+                  <span>Tutores satisfeitos</span>
+                </div>
+                <div class="hero-stat">
+                  <strong data-counter="15" data-suffix=" anos">0</strong>
+                  <span>De experiência</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <img src="src/assets/img/hero-home.jpg" alt="Cachorro feliz sorrindo apos um banho no PataFeliz" loading="eager" />
+
+              <div class="hero-card hero-card-1">
+                <div class="hero-card-icon coral" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
+                <div class="hero-card-text">
+                  <strong>Banho Express</strong>
+                  <span>Pronto em 60 min</span>
+                </div>
+              </div>
+
+              <div class="hero-card hero-card-2">
+                <div class="hero-card-icon blue" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                  </svg>
+                </div>
+                <div class="hero-card-text">
+                  <strong>TeleVet 24h</strong>
+                  <span>Atendimento online</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="diferenciais-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag">Diferenciais exclusivos</span>
+            <h2 id="diferenciais-title" class="section-title">
+              O que nenhum petshop oferece, <span class="text-gradient">a gente entrega</span>
+            </h2>
+            <p class="section-subtitle">
+              Reinventamos a experiência do petshop com tecnologia, transparência e muito amor pelos bichinhos.
+            </p>
+          </header>
+
+          <div class="features-list reveal">
+            <article class="feature-item">
+              <span class="feature-num">01</span>
+              <h3 class="feature-name">PataCam ao Vivo</h3>
+              <p class="feature-desc">Câmeras durante o banho e a tosa para você acompanhar tudo pelo celular, em tempo real e com segurança.</p>
+            </article>
+
+            <article class="feature-item">
+              <span class="feature-num">02</span>
+              <h3 class="feature-name">TeleVet 24 horas</h3>
+              <p class="feature-desc">Consulta veterinária online a qualquer hora. Triagem, orientação e pedido de exames sem sair de casa.</p>
+            </article>
+
+            <article class="feature-item">
+              <span class="feature-num">03</span>
+              <h3 class="feature-name">Clube PataFeliz</h3>
+              <p class="feature-desc">Box mensal com snacks, brinquedos e produtos selecionados por IA conforme o perfil único do seu pet.</p>
+            </article>
+
+            <article class="feature-item">
+              <span class="feature-num">04</span>
+              <h3 class="feature-name">AdoPet Center</h3>
+              <p class="feature-desc">Programa de adoção responsável integrado. A cada banho, parte da receita ajuda animais resgatados.</p>
+            </article>
+
+            <article class="feature-item">
+              <span class="feature-num">05</span>
+              <h3 class="feature-name">Drive-Thru de Banho</h3>
+              <p class="feature-desc">Banho express sem sair do carro. Você entrega no drive, recebe um pager e busca em até 60 minutos.</p>
+            </article>
+
+            <article class="feature-item">
+              <span class="feature-num">06</span>
+              <h3 class="feature-name">Diário do Pet</h3>
+              <p class="feature-desc">Aplicativo que registra humor, peso, vacinas e hábitos. Receba alertas antes de qualquer problema.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;" aria-labelledby="servicos-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag"> Nossos serviços</span>
+            <h2 id="servicos-title" class="section-title">Cuidado completo, do focinho à cauda</h2>
+            <p class="section-subtitle">
+              Profissionais certificados, produtos premium e ambiente projetado para o conforto do seu pet.
+            </p>
+          </header>
+
+          <div class="services-grid reveal">
+            <article class="service-card">
+              <div class="service-thumb">
+                <span class="service-tag">Mais pedido</span>
+                <img src="src/assets/img/servico-banho.jpg" alt="Cao recebendo banho profissional" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Banho &amp; Tosa Premium</h3>
+                <p>Banho com produtos hipoalergênicos, secagem suave e tosa modelada por especialistas.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 79 <small>/ pequeno porte</small></span>
+                  <a href="pages/portifolio.html" class="service-link">Ver detalhes →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <img src="src/assets/img/servico-vet.jpg" alt="Veterinaria examinando um cachorro" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Veterinário 24h</h3>
+                <p>Consultas, vacinas, exames e cirurgias com equipe disponivel todos os dias, inclusive feriados.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 120 <small>/ consulta</small></span>
+                  <a href="pages/portifolio.html" class="service-link">Ver detalhes →</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-thumb">
+                <img src="src/assets/img/servico-hotel.jpg" alt="Cachorro brincando em area externa" loading="lazy" />
+              </div>
+              <div class="service-body">
+                <h3>Hotel &amp; Daycare</h3>
+                <p>Hospedagem com área externa, ar-condicionado e atividades diárias. Seu pet não vai querer voltar para casa.</p>
+                <div class="service-meta">
+                  <span class="service-price">R$ 89 <small>/ diária</small></span>
+                  <a href="pages/portifolio.html" class="service-link">Ver detalhes →</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;" aria-labelledby="mood-title">
+        <div class="container">
+          <div class="mood reveal">
+            <span class="section-tag"> Exclusivo PataFeliz</span>
+            <h2 id="mood-title">Como está o humor do seu pet hoje?</h2>
+            <p class="mood-desc">
+              Selecione o estado do seu amigo e receba uma orientação personalizada da nossa equipe veterinária.
+            </p>
+
+            <div class="mood-emojis" role="radiogroup" aria-label="Selecione o humor do pet">
+              <button class="mood-emoji" data-mood="feliz" aria-label="Feliz">😄</button>
+              <button class="mood-emoji" data-mood="cansado" aria-label="Cansado">😴</button>
+              <button class="mood-emoji" data-mood="agitado" aria-label="Agitado">🤩</button>
+              <button class="mood-emoji" data-mood="triste" aria-label="Triste">🙁</button>
+              <button class="mood-emoji" data-mood="doente" aria-label="Doente">🤢</button>
+            </div>
+
+            <div class="mood-result" id="mood-result" aria-live="polite">
+              <strong>Selecione um emoji acima</strong>
+              <span>Vamos te dar uma dica especial sobre como cuidar do seu pet agora.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;" aria-labelledby="depoimentos-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag">Depoimentos</span>
+            <h2 id="depoimentos-title" class="section-title">Histórias que aquecem o coração</h2>
+            <p class="section-subtitle">O que tutores e seus pets têm a dizer sobre a experiência PataFeliz.</p>
+          </header>
+
+          <div class="testimonials-grid reveal">
+            <article class="testimonial">
+              <div class="testimonial-stars" aria-label="5 estrelas">★★★★★</div>
+              <p class="testimonial-text">
+                A PataCam mudou tudo. Eu trabalho fora e adoro ver minha Luna sendo cuidada. A equipe é carinhosa e profissional.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">M</div>
+                <div>
+                  <strong>Mariana Costa</strong>
+                  <span>tutora da Luna</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="testimonial-stars" aria-label="5 estrelas">★★★★★</div>
+              <p class="testimonial-text">
+                Acionei o TeleVet de madrugada quando o Thor passou mal. Em 5 minutos já estava com a veterinária. Salvou meu cachorro.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">R</div>
+                <div>
+                  <strong>Rafael Souza</strong>
+                  <span>tutor do Thor</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial">
+              <div class="testimonial-stars" aria-label="5 estrelas">★★★★★</div>
+              <p class="testimonial-text">
+                O Clube manda exatamente o que o Mel ama. Parece que conhecem ele melhor que eu! E o diário é viciante.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">J</div>
+                <div>
+                  <strong>Juliana Alves</strong>
+                  <span>tutora do Mel</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0;">
+        <div class="container">
+          <div class="cta reveal">
+            <div>
+              <h2>Pronto para mimar seu melhor amigo?</h2>
+              <p>Primeiro banho com 20% de desconto. Garantia de satisfação ou seu dinheiro de volta.</p>
+            </div>
+            <div class="cta-actions">
+              <a href="pages/contato.html" class="btn btn-primary btn-lg">Agendar agora</a>
+              <a href="pages/portifolio.html" class="btn btn-ghost" style="color: #fff;">Ver preços →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+
+        <div class="footer-top">
+          <div class="footer-about">
+            <a href="index.html" class="logo">
+              <img src="src/assets/img/PataFeliz.png" alt="PataFeliz" class="logo-img" />
+            </a>
+            <p>O segundo lar do seu melhor amigo. Cuidado profissional, tecnologia e muito carinho desde 2010.</p>
+
+            <form id="newsletter-form" class="footer-newsletter" aria-label="Inscrever na newsletter">
+              <input type="email" placeholder="Seu melhor e-mail" aria-label="E-mail" required />
+              <button type="submit">Inscrever</button>
+            </form>
+          </div>
+
+          <div>
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pages/portifolio.html">Portifólio</a></li>
+              <li><a href="pages/sobre.html">Sobre</a></li>
+              <li><a href="pages/contato.html">Contato</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="pages/portifolio.html">Banho &amp; Tosa</a></li>
+              <li><a href="pages/portifolio.html">Veterinário 24h</a></li>
+              <li><a href="pages/portifolio.html">Hotel &amp; Daycare</a></li>
+              <li><a href="pages/portifolio.html">Clube PataFeliz</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Contato</h4>
+            <div class="footer-contact-item">
+              <span class="icon" aria-hidden="true">☎</span>
+              <span>(11) 4002-8922</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon" aria-hidden="true">✉</span>
+              <span>ola@patafeliz.com.br</span>
+            </div>
+            <div class="footer-contact-item">
+              <span class="icon" aria-hidden="true">📍</span>
+              <span>Av. Paulista, 1500 - São Paulo/SP</span>
+            </div>
+
+            <div class="footer-socials">
+              <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="18" cy="6" r="1" fill="currentColor" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-3h2.5V9.5C10.5 7 12 5.7 14.2 5.7c1 0 2.1.2 2.1.2v2.3h-1.2c-1.2 0-1.6.7-1.6 1.5V12H17l-.4 3h-2.4v7A10 10 0 0 0 22 12z" />
+                </svg>
+              </a>
+              <a href="#" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.6 6.3c-1.4-.4-2.5-1.4-3-2.8h-3.1v11.7c0 1.2-1 2.2-2.2 2.2s-2.2-1-2.2-2.2 1-2.2 2.2-2.2c.2 0 .5 0 .7.1V9.8c-.2 0-.5-.1-.7-.1-3 0-5.4 2.4-5.4 5.4S8.3 20.5 11.3 20.5s5.4-2.4 5.4-5.4V9.2c1.2.8 2.6 1.3 4.2 1.3V7.4c-.5 0-.9-.4-1.3-.5z" />
+                </svg>
+              </a>
+              <a href="#" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20 4A10 10 0 0 0 4 17l-1 4 4-1a10 10 0 0 0 13-13zm-8 16a8 8 0 0 1-4-1l-3 1 1-3a8 8 0 1 1 6 3zm4-5c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1-.6.7-.7.8-.3.1-.5 0-1-.4-2-1.2c-.7-.6-1.2-1.4-1.4-1.6s0-.3.1-.4l.3-.4.2-.3v-.3l-.6-1.5c-.2-.4-.3-.3-.5-.3h-.4c-.1 0-.4 0-.6.3s-.7.7-.7 1.7.8 2 .9 2.1c.1.1 1.6 2.4 3.9 3.4 2 .8 2 .5 2.4.5.3 0 1.2-.5 1.4-1 .2-.5.2-.9.1-1l-.3-.2z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© <span id="current-year">2025</span> PataFeliz. Todos os direitos reservados.</span>
+          <div class="footer-bottom-links">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <a href="https://wa.me/5511400289220" class="float-wpp" aria-label="Falar no WhatsApp" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4A10 10 0 0 0 4 17l-1 4 4-1a10 10 0 0 0 13-13zm-8 16a8 8 0 0 1-4-1l-3 1 1-3a8 8 0 1 1 6 3zm4-5c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1-.6.7-.7.8-.3.1-.5 0-1-.4-2-1.2c-.7-.6-1.2-1.4-1.4-1.6s0-.3.1-.4l.3-.4.2-.3v-.3l-.6-1.5c-.2-.4-.3-.3-.5-.3h-.4c-.1 0-.4 0-.6.3s-.7.7-.7 1.7.8 2 .9 2.1c.1.1 1.6 2.4 3.9 3.4 2 .8 2 .5 2.4.5.3 0 1.2-.5 1.4-1 .2-.5.2-.9.1-1l-.3-.2z" />
+      </svg>
+    </a>
+
+    <script src="src/js/script.js"></script>
+  </body>
+
+</html>
