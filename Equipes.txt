@@ -14,7 +14,7 @@ RM: 572607 - Gabriel Souza Alexandre Silva
 TEMA: Petshop (PataFeliz)
 
 LINK GITHUB PAGES:
-
+https://marceloscoleso.github.io/PataFelizCP2/
 
 REPOSITORIO:
 https://github.com/MarceloScoleso/PataFelizCP2
