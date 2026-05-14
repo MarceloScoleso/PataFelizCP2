@@ -1,0 +1,30 @@
+==========================================================
+  CHECKPOINT 2 - FIAP
+  Projeto: PataFeliz - Petshop
+==========================================================
+
+INTEGRANTES DO GRUPO:
+----------------------------------------------------------
+RM: 571626 - Marcelo Antonio Scoleso Junior
+RM: 571306 - Joao Paulo Francisco de Oliveira
+RM: 571340 - Julia Souza Matarazzo
+RM: 572607 - Gabriel Souza Alexandre Silva
+----------------------------------------------------------
+
+TEMA: Petshop (PataFeliz)
+
+LINK GITHUB PAGES:
+
+
+REPOSITORIO:
+https://github.com/MarceloScoleso/PataFelizCP2
+
+DIFERENCIAIS DO PROJETO (Inovacoes alem do mercado):
+- PataCam: cameras ao vivo durante o banho/tosa
+- TeleVet 24h: consulta veterinaria online emergencial
+- Clube PataFeliz: box mensal com produtos selecionados por IA
+- AdoPet: programa integrado de adocao responsavel
+- Drive-Thru de Banho: banho express sem sair do carro
+- Diario do Pet: acompanhamento de humor, saude e habitos
+
+==========================================================
